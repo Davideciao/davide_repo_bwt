@@ -1,4 +1,7 @@
 parola = "banana$"
 lettera = ""
+matrice=[]
 
-print (parola)
+
+
+    

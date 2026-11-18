@@ -14,5 +14,6 @@ parola = conn.recv(1024).decode()
 risultato = trasformata_bwt(parola)
 conn.send(risultato.encode())
 
+
 conn.close()
 server.close()
